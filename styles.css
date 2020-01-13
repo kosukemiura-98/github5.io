@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.wrapper {
+    width: 1035px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+header h1:hover {
+    opacity: 0.8;
+}
+
+header h1 span {
+    font-weight: normal;
+    font-size: 18px;
+    color: #777;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 250px;
+}
+
+header li {
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+header li a:hover {
+    color: #c49029;
+    transition: all 0.5s;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+main {
+    margin: 70px 0;
+}
+
+main p {
+    color: #777;
+    font-size: 27px;
+    line-height: 1.7;
+    margin-top: 70px;
+}
+
+.main2 {
+    padding-bottom: 100px;
+}
+
+.main2 time a {
+    color: #999;
+}
+
+.main2 p {
+    color: #666;
+}
+
+.main2 article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.main2 article time {
+    position: absolute;
+    top: 25px;
+}
+
+.main2 article div {
+    position: absolute;
+    left: 330px;
+}
+
+.main2 article h2 a {
+    transition: all 0.5s;
+}
+
+.main2 article h2 a:hover {
+    color: #c49029;
+}
+
+.main2 article p {
+    line-height: 1.8;
+}
+
+.main2 article .last {
+    padding-bottom: 100px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.number p {
+    margin: 6px;
+    border: 1px #999 solid;
+    padding: 8px 18px;
+}
+
+.main3 {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 75px 0;
+}
+
+.main3 h3 {
+    color: #333;
+    font-size: 16px;
+}
+
+.c a {
+    border-bottom: 1px solid #ddd;
+}
+
+.d a {
+    border-bottom: 1px solid #ddd;
+}
+
+.main3 time {
+    color: #999;
+}
+
+.main3 a:hover {
+    transition: all 0.5s;
+    color: #c49029;
+}
+
+.main3 .abcde {
+    margin-right: 5%;
+}
+
+.a {
+    width: 30%;
+}
+
+.b {
+    width: 30%;
+}
+
+.c {
+    width: 20%;
+}
+
+.d {
+    width: 20%;
+}
+
+.main3 .abcde div {
+    margin-bottom: 10px;
+}
+
+.hirota {
+    display: flex;
+}
+
+.profile-right img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.profile-right img:hover {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.profile-left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.twitter2 {
+    width: 25px;
+    height: 25px;
+}
+
+.facebook2 {
+    width: 25px;
+    height: 25px;
+}
+
+.instagram2 {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    padding: 50px 0;
+    position: relative;
+}
+
+.twitter {
+    position: absolute;
+    top: 70px;
+}
+
+.facebook {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.instagram {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+footer img:hover {
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+footer p {
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+footer p a {
+    color: #666;
+}
