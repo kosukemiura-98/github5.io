@@ -2,8 +2,11 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Write - 書くためのテーマ</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
         <div class="wrapper">
@@ -13,19 +16,26 @@
                         Write<br>
                         <span>書くためのテーマ</span>
                     </a>
-                </h1> 
+                </h1>
+                <div class="header-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul>
                     <li><a href="#">ホーム</a></li>
                     <li><a href="#">ページ</a></li>
                     <li><a href="#">タイポグラフィー</a></li>
                     <li><a href="#">お問い合わせ</a></li>
                 </ul>
-                <a href="#"><img src="search.png"></a>
+                <a class="glass" href="#">
+                    <img src="images/search.png">
+                </a>
             </header>
+
             <main>
-                <img src="header.jpg">
+                <img src="images/header.jpg">
                 <p>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。</p>
             </main>
+
             <div class="main2">
                 <article>
                     <time>
@@ -82,7 +92,7 @@
                         <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</p>
                     </div>
                 </article>
-                <article class="last">
+                <article>
                     <time>
                         <a href="#">2018年3月3日</a>
                     </time>
@@ -93,29 +103,30 @@
                         <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</p>
                     </div>
                 </article>
-                <div class="number">
-                    <p><a href="#">1</a></p>
-                    <p><a href="#">2</a></p>
-                    <p><a href="#">3</a></p>
-                    <p><a href="#">次へ>></a></p>
-                </div>
+                <section class="number">
+                    <p><a class="h-number h" href="#">1</a></p>
+                    <p><a class="h-number h" href="#">2</a></p>
+                    <p><a class="h-number h" href="#">3</a></p>
+                    <p><a class="h-number rino" href="#">次へ »</a></p>
+                </section>
             </div>
+
             <div class="main3">
                 <div class="abcde a">
                     <div class="hirota">
                         <div class="profile-left">
-                            <img src="profile.png">
+                            <img src="images/profile.png">
                         </div>
                         <div class="profile-right">
                             <h3>John Doe</h3>
                             <a href="#">
-                                <img class="twitter2" src="twitter-white.png">
+                                <i class="fab fa-twitter"></i>
                             </a>
                             <a href="#">
-                                <img class="facebook2" src="facebook-gray.png">
+                                <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="#">
-                                <img class="instagram2" src="instagram.png">
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </div>
                     </div>
@@ -145,14 +156,27 @@
                     <a href="#">サンプル投稿</a><br><br>
                     <a href="#">投稿フォーマット</a><br><br>
                     <a href="#">普通の投稿</a>
+                    <input type="search" class="search" placeholder="検索 …">
                 </div>
             </div>
+
             <footer>
-                <a href="#"><img class="twitter" src="twitter-white.png"></a>
-                <a href="#"><img class="facebook" src="facebook-gray.png"></a>
-                <a href="#"><img class="instagram" src="instagram.png"></a>
-                <p><small>	
-                    Powered by <a href="#">Wordpress</a> | Theme: <a href="#">Write</a> by Themegraphy</small></p>
+                <div class="container">
+                    <a href="#">
+                        <i class="fab fa-twitter twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-f facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram instagram"></i>
+                    </a>
+                </div>
+                <p>
+                    <small>
+                        Powered by <a href="#">Wordpress</a> | Theme: <a href="#">Write</a> by Themegraphy
+                    </small>
+                </p>
             </footer>
         </div>
     </body>
