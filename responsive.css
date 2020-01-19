@@ -1,0 +1,121 @@
+@media screen and (max-width: 980px) {
+
+  .wrapper {
+    width: 80%;
+  }
+
+  header {
+    margin-top: 25px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .glass {
+    display: none;
+  }
+
+  .header-menu {
+    display: block;
+  }
+
+
+  .main2 article {
+    display: block;
+  }
+
+  .main2 time a {
+    width: 100%;
+    position: relative;
+    top: -15px;
+  }
+
+  .main2 div {
+    width: 100%;
+  }
+
+  .number {
+    justify-content: left;
+  }
+
+
+  .main3 {
+    display: block;
+  }
+
+  .main3 .abcde {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .main3 .a div {
+    margin: 0;
+  }
+
+  .a, .b, .c, .d {
+    width: 100%;
+  }
+
+  .c div {
+    margin-bottom: 20px;
+  }
+
+  .search {
+    margin: 0;
+    position: relative;
+    top: 80px;
+    right: 80px;
+  }
+
+
+  footer {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+
+  .wrapper {
+    width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+  main p {
+    font-size: 25px;
+  }
+
+  .h {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  main p {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 327px) {
+
+  .search {
+    right: 0;
+  }
+
+  .hirota {
+    display: block;
+  }
+
+}
