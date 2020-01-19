@@ -85,13 +85,25 @@
     width: 90%;
   }
 
+  main p {
+    font-size: 24px;
+  }
+
+  .main2 h2 {
+    font-size: 22px;
+  }
+
+  .main2 p {
+    font-size: 16px;
+  }
+
 }
 
 
 @media screen and (max-width: 640px) {
 
   main p {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .h {
@@ -103,7 +115,15 @@
 @media screen and (max-width: 500px) {
 
   main p {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  .main2 h2 {
+    font-size: 20px;
+  }
+
+  .main2 p {
+    font-size: 14px;
   }
 
 }
