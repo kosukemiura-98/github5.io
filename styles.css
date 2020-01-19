@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
@@ -12,7 +16,8 @@ a {
 }
 
 .wrapper {
-    width: 1035px;
+    max-width: 1035px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -26,11 +31,13 @@ header {
 header h1 {
     font-size: 36px;
     margin: 0;
-    transition: all 0.5s;
+    position: relative;
+    top: 10px;
 }
 
 header h1:hover {
     opacity: 0.8;
+    transition: all 0.5s;
 }
 
 header h1 span {
@@ -43,8 +50,9 @@ header ul {
     list-style-type: none;
     display: flex;
     position: absolute;
+    padding: 0;
     top: 32px;
-    left: 250px;
+    left: 280px;
 }
 
 header li {
@@ -57,16 +65,22 @@ header li a:hover {
     transition: all 0.5s;
 }
 
+header a {
+    margin-top: 50px;
+}
+
 header img {
     width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 50px;
-    right: 10px;
 }
+
 
 main {
     margin: 70px 0;
+}
+
+main img {
+    max-width: 1035px;
+    width: 100%;
 }
 
 main p {
@@ -76,8 +90,9 @@ main p {
     margin-top: 70px;
 }
 
+
 .main2 {
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
 .main2 time a {
@@ -91,47 +106,58 @@ main p {
 .main2 article {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 200px;
-    position: relative;
+    margin-bottom: 50px;
 }
 
-.main2 article time {
-    position: absolute;
+.main2 time {
+    width: 30%;
+    position: relative;
     top: 25px;
 }
 
-.main2 article div {
-    position: absolute;
-    left: 330px;
-}
-
-.main2 article h2 a {
+.main2 time a:hover {
+    color: #333;
     transition: all 0.5s;
 }
 
-.main2 article h2 a:hover {
+.main2 div {
+    width: 70%;
+}
+
+.main2 h2 a:hover {
     color: #c49029;
+    transition: all 0.5s;
 }
 
-.main2 article p {
+.main2 p {
+    font-size: 18px;
     line-height: 1.8;
-}
-
-.main2 article .last {
-    padding-bottom: 100px;
 }
 
 .number {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
 }
 
-.number p {
+.h-number {
+    display: block;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
     margin: 6px;
-    border: 1px #999 solid;
-    padding: 8px 18px;
+    color: #333;
+    border: 1px #ddd solid;
 }
+
+.h-number:hover {
+    color: #c49029;
+    transition: all 0.2s;
+}
+
+.rino {
+    width: 100px;
+}
+
 
 .main3 {
     display: flex;
@@ -165,106 +191,90 @@ main p {
 }
 
 .main3 .abcde {
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .a {
-    width: 30%;
+    width: 33%;
 }
 
 .b {
-    width: 30%;
+    width: 27%;
 }
 
-.c {
-    width: 20%;
-}
-
-.d {
+.c, .d {
     width: 20%;
 }
 
 .main3 .abcde div {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hirota {
     display: flex;
 }
 
-.profile-right img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
+.fab {
+    color: #999;
+    font-size: 25px;
 }
 
-.profile-right img:hover {
+.fab:hover {
+    color: #666;
+    transition: all 0.2s;
+}
+
+.profile-right .fab {
+    margin-right: 10px;
+}
+
+.profile-right .fab:hover {
     transition: all 0.5s;
     opacity: 0.8;
 }
 
 .profile-left img {
     width: 100px;
-    height: 100px;
     border-radius: 50%;
     margin-right: 20px;
 }
 
-.twitter2 {
-    width: 25px;
-    height: 25px;
+.search {
+    margin-top: 100px;
+    padding: 15px 20px;
+    border: solid 1px #e6e6e6;
+    border-radius: 3px;
 }
 
-.facebook2 {
-    width: 25px;
-    height: 25px;
-}
-
-.instagram2 {
-    width: 25px;
-    height: 25px;
-}
 
 footer {
-    padding: 50px 0;
-    position: relative;
+    padding: 20px 0 50px 0;
+    display: flex;
 }
 
-.twitter {
-    position: absolute;
-    top: 70px;
+footer .container {
+    max-width: 340px;
+    width: 100%;
+    padding-top: 25px;
 }
 
-.facebook {
-    position: absolute;
-    top: 70px;
-    left: 40px;
-}
-
-.instagram {
-    position: absolute;
-    top: 70px;
-    left: 80px;
-}
-
-footer img {
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
-}
-
-footer img:hover {
-    transition: all 0.5s;
-    opacity: 0.8;
+footer .container a {
+    margin-right: 20px;
 }
 
 footer p {
-    text-align: center;
     color: #999;
     font-size: 20px;
-    margin-left: 50px;
 }
 
 footer p a {
     color: #666;
+}
+
+.header-menu {
+    display: none;
+    color: #111;
+    font-size: 28px;
+    position: relative;
+    top: 10px;
 }
