@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- reset.css -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" />
+  <!-- style.css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">
+      <a href="#" class="header__title--link">
+        <img src="assets/images/logo.png" alt="橘地所">
+      </a>
+    </h1>
+    <ul class="header__list">
+      <li class="header__item">
+        <a href="/company.html" class="header__item--link">会社概要</a>
+      </li>
+      <li class="header__item">
+        <a href="/biz.html" class="header__item--link">事業紹介</a>
+      </li>
+      <li class="header__item">
+        <a href="/news.html" class="header__item--link">お知らせ</a>
+      </li>
+      <li class="header__item">
+        <a href="/contact.html" class="header__item--link">お問い合せ</a>
+      </li>
+    </ul>
+    <ul class="header__list2">
+      <li class="header__item2">
+        <a href="#" class="header__item2--link">
+          <img src="assets/images/twitter.png" alt="Twitter">
+        </a>
+      </li>
+      <li class="header__item2">
+        <a href="#" class="header__item2--link">
+          <img src="assets/images/insta.png" alt="Instagram">
+        </a>
+      </li>
+    </ul>
+    <div class="header__hamburger">
+      <span class="header__line"></span>
+      <span class="header__line"></span>
+      <span class="header__line"></span>
+    </div>
+  </header>
+
+  <aside class="drawer">
+    <div class="container">
+      <ul class="drawer__list">
+        <li class="drawer__item">
+          <a href="#" class="drawer__item--link">トップページ</a>
+        </li>
+        <li class="drawer__item">
+          <a href="/company.html" class="drawer__item--link">会社概要</a>
+        </li>
+        <li class="drawer__item">
+          <a href="/biz.html" class="drawer__item--link">事業紹介</a>
+        </li>
+        <li class="drawer__item">
+          <a href="/news.html" class="drawer__item--link">お知らせ</a>
+        </li>
+        <li class="drawer__item">
+          <a href="/contact.html" class="drawer__item--link">お問い合わせ</a>
+        </li>
+      </ul>
+      <ul class="drawer__list2">
+        <li class="drawer__item2">
+          <a href="#" class="drawer__item2--link">
+            <img src="assets/images/twitter.png" alt="Twitter">
+          </a>
+        </li>
+        <li class="drawer__item2">
+          <a href="#" class="drawer__item2--link">
+            <img src="assets/images/insta.png" alt="Instagram">
+          </a>
+        </li>
+        <li class="drawer__item2">
+          <a href="#" class="drawer__item2--link">
+            <img src="assets/images/tel.png" alt="Tel">
+            <p class="drawer__tel">077-0000-0000</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="Contact">
+    <div class="bread">
+      <p class="bread__text">トップページ</p>
+      <p class="bread__text">　>　</p>
+      <p class="bread__text">
+        <a href="#" class="bread__text--link">お問い合わせ</a>
+      </p>
+    </div>
+
+    <div class="mv">
+      <div class="mv__bg wow animated fadeInUp" data-wow-delay="1s"></div>
+      <div class="container">
+        <h2 class="mv__title wow animated fadeInUp" data-wow-delay="1.5s">お問い合わせ</h2>
+        <p class="mv__text wow animated fadeInUp" data-wow-delay="1.5s">
+          橘地所ウェブサイトをご覧いただき、ありがとうございます。ご相談・資料請求・その他お問い合わせは以下のメールフォームで受け付けております。<br>
+          当フォームをご利用の際には、プライバシーポリシーならびにcookie利用にご同意いただけたものとさせていただきます。
+        </p>
+      </div>
+    </div>
+
+    <section class="contact">
+      <div class="container">
+        <form action="#" class="contact__form">
+          <div class="contact__row">
+            <label for="name" class="contact__label">名前</label>
+            <div class="input__wrapper required">
+              <input type="text" name="name">
+            </div>
+          </div>
+          <div class="contact__row">
+            <label for="tel" class="contact__label">電話</label>
+            <input type="number" name="tel">
+          </div>
+          <div class="contact__row">
+            <label for="email" class="contact__label">メール</label>
+            <div class="input__wrapper required">
+              <input type="email" name="email">
+            </div>
+          </div>
+          <div class="contact__row">
+            <label for="kinds" class="contact__label">お問い合せの種類</label>
+            <div class="select__wrapper required">
+              <select name="kinds">
+                <option value="0">選択してください</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+          </div>
+          <div class="contact__row">
+            <label for="textarea" class="contact__label">お問い合わせの内容</label>
+            <div class="input__wrapper required">
+              <textarea name="textarea"></textarea>
+            </div>
+          </div>
+          <div class="contact__submitArea">
+            <div class="contact__submitWrapper">
+              <input type="submit" value="送信する" class="contact__submit">
+            </div>
+          </div>
+        </form>
+        <div class="contact__privacy">
+          <div class="contact__header">
+            <p class="contact__ttl">プライバシーポリシー</p>
+            <p class="contact__btn">展開する</p>
+          </div>
+          <div class="contact__body">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <h1 class="footer__title">
+          <a href="#" class="footer__title--link">
+            <img src="assets/images/logo-w.png" alt="橘地所">
+          </a>
+        </h1>
+        <div class="footer__textContents">
+          <div class="footer__row">
+            <p class="footer__left">本社</p>
+            <p class="footer__right">滋賀県栗東市小柿６丁目６番１号</p>
+          </div>
+          <div class="footer__row">
+            <p class="footer__left">柏原支社</p>
+            <p class="footer__right">大阪府柏原市大正１丁目２番１８号（非常駐）</p>
+          </div>
+          <div class="footer__row">
+            <p class="footer__left">営業時間</p>
+            <p class="footer__right">9:00〜18:00 （土・日・祝定休）</p>
+          </div>
+          <div class="footer__row">
+            <p class="footer__left">電話</p>
+            <p class="footer__right">077-000-0000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bg"></div>
+  </footer>
+
+  <!-- SAKURA Font -->
+  <script type="text/javascript" src="//webfonts.sakura.ne.jp/js/sakurav3.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- wow.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- script.js -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
