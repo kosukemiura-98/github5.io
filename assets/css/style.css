@@ -9,6 +9,9 @@ body {
   font-size: 17px;
   font-family: "UD新ゴ R", "UD Shin Go Regular", sans-serif;
 }
+body.is-open {
+  overflow: hidden;
+}
 
 .container {
   width: 100%;
